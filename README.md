@@ -42,10 +42,10 @@ sudo apt install build-essential cmake check libsubunit-dev lcov
 Clone or download the repository to start building the project.
 
 ```bash
-    # Clone using Git
+# Clone using Git
 git clone https://github.com/your-username/project-repo.git
 
-    # Download directly from GitHub
+# Download directly from GitHub
 https://github.com/your-username/project-repo/archive/refs/heads/main.zip
 ```
 
@@ -138,4 +138,7 @@ To clean the build directory and remove any generated files, run:
 
 ```bash
 make clean
+
+# complete cleanup
+cd .. && rm -rf build
 ```
